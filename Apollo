@@ -23,44 +23,44 @@
 	<p><h3 style="color: #ffffff">Wszystkie misje Apollo z zamiarem lądowania na Księżycu</h3></p>
 	<table style="border:3px solid white; border collapse;">
 		<tr>
-			<td style="border:3px solid black; padding: 5px;">Data startu</td>
-			<td style="border:3px solid black; padding: 5px;">Typ rakiety</td>
-			<td style="border:3px solid black; padding: 5px;">Załoga</td>
+			<td style="border:3px solid white; padding: 5px; color:#ffffff"><b>Data startu</b></td>
+			<td style="border:3px solid white; padding: 5px; color:#ffffff"><b>Typ rakiety</b></td>
+			<td style="border:3px solid white; padding: 5px; color:#ffffff"><b>Załoga</b></td>
 		</tr>
 		<tr>
-			<td style="border:3px solid black; padding: 5px;">16 – 20 – 24 lipca 1969</td>
-			<td style="border:3px solid black; padding: 5px;">Saturn V</td>
-			<td style="border:3px solid black; padding: 5px;">Neil Armstrong, Michael Collins, Edwin "Buzz" Aldrin</td>
+			<td style="border:3px solid white; padding: 5px; color:#ffffff">16 – 20 – 24 lipca 1969</td>
+			<td style="border:3px solid white; padding: 5px; color:#ffffff">Saturn V</td>
+			<td style="border:3px solid white; padding: 5px; color:#ffffff">Neil Armstrong, Michael Collins, Edwin "Buzz" Aldrin</td>
 		</tr>
 		<tr>
-			<td style="border:3px solid black; padding: 5px;">14 – 19 –24 listopada 1969	</td>
-			<td style="border:3px solid black; padding: 5px;">Saturn V</td>
-			<td style="border:3px solid black; padding: 5px;">Charles (Pete) Conrad, Richard F. Gordon Jr, Alan Bean</td>
+			<td style="border:3px solid white; padding: 5px; color:#ffffff">14 – 19 –24 listopada 1969	</td>
+			<td style="border:3px solid white; padding: 5px; color:#ffffff">Saturn V</td>
+			<td style="border:3px solid white; padding: 5px; color:#ffffff">Charles (Pete) Conrad, Richard F. Gordon Jr, Alan Bean</td>
 		</tr>
 		<tr>
-			<td style="border:3px solid black; padding: 5px;">11 – nie lądował –17 kwietnia 1970</td>
-			<td style="border:3px solid black; padding: 5px;">Saturn V</td>
-			<td style="border:3px solid black; padding: 5px;">James Lovell, Jack Swigert, Fred Haise</td>
+			<td style="border:3px solid white; padding: 5px; color:#ffffff">11 – nie lądował –17 kwietnia 1970</td>
+			<td style="border:3px solid white; padding: 5px; color:#ffffff">Saturn V</td>
+			<td style="border:3px solid white; padding: 5px; color:#ffffff">James Lovell, Jack Swigert, Fred Haise</td>
 		</tr>
 		<tr>
-			<td style="border:3px solid black; padding: 5px;">31 stycznia –5 lutego – 9 lutego 1971	</td>
-			<td style="border:3px solid black; padding: 5px;">Saturn V</td>
-			<td style="border:3px solid black; padding: 5px;">Alan Shepard, Stuart Roosa, Edgar Mitchell</td>
+			<td style="border:3px solid white; padding: 5px; color:#ffffff">31 stycznia –5 lutego – 9 lutego 1971	</td>
+			<td style="border:3px solid white; padding: 5px; color:#ffffff">Saturn V</td>
+			<td style="border:3px solid white; padding: 5px; color:#ffffff">Alan Shepard, Stuart Roosa, Edgar Mitchell</td>
 		</tr>
 		<tr>
-			<td style="border:3px solid black; padding: 5px;">26 – 30 lipca – 7 sierpnia 1971	</td>
-			<td style="border:3px solid black; padding: 5px;">Saturn V</td>
-			<td style="border:3px solid black; padding: 5px;">David Scott, Alfred Worden, James Irwin</td>
+			<td style="border:3px solid white; padding: 5px; color:#ffffff">26 – 30 lipca – 7 sierpnia 1971	</td>
+			<td style="border:3px solid white; padding: 5px; color:#ffffff">Saturn V</td>
+			<td style="border:3px solid white; padding: 5px; color:#ffffff">David Scott, Alfred Worden, James Irwin</td>
 		</tr>
 		<tr>
-			<td style="border:3px solid black; padding: 5px;">16 – 21 – 27 kwietnia 1972	</td>
-			<td style="border:3px solid black; padding: 5px;">Saturn V</td>
-			<td style="border:3px solid black; padding: 5px;">John Young, Ken Mattingly, Charles Duke</td>
+			<td style="border:3px solid white; padding: 5px; color:#ffffff">16 – 21 – 27 kwietnia 1972	</td>
+			<td style="border:3px solid white; padding: 5px; color:#ffffff">Saturn V</td>
+			<td style="border:3px solid white; padding: 5px; color:#ffffff">John Young, Ken Mattingly, Charles Duke</td>
 		</tr>
 		<tr>
-			<td style="border:3px solid black; padding: 5px;">7 – 11 – 19 grudnia 1972	</td>
-			<td style="border:3px solid black; padding: 5px;">Saturn V</td>
-			<td style="border:3px solid black; padding: 5px;">Eugene Cernan, Ronald Evans, Harrison Schmitt</td>
+			<td style="border:3px solid white; padding: 5px; color:#ffffff">7 – 11 – 19 grudnia 1972	</td>
+			<td style="border:3px solid white; padding: 5px; color:#ffffff">Saturn V</td>
+			<td style="border:3px solid white; padding: 5px; color:#ffffff">Eugene Cernan, Ronald Evans, Harrison Schmitt</td>
 		</tr>
 	</table>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/S3ufJ7lcr08?start=219" title="YouTube video player" frameborder="0"
