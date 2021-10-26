@@ -6,10 +6,15 @@
 </head>
 <body style="background-color:#DAA3A3;">
 	we wtorek postaram się to bardziej uporządkować i rozbudować
+	<br>
 	<a href="apollo.html">Home</a>
+	<br>
 	<a href="apollo.html">Apollo</a>
+	<br>
 	<a href="apollo.html">Our team</a>
+	<br>
 	<a href="apollo.html">Contact</a>
+	<br>
 	<img width="600" height="302" src="https://www.lpi.usra.edu/lunar/missions/apollo/apollo_11/images/apollo-11-main.jpg">
 	<table style="border:3px solid black; border collapse;">
 		<tr>
