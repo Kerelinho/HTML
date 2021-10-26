@@ -5,7 +5,8 @@
 	<title>Apollo</title>
 </head>
 <body style="background-color:#DAA3A3;">
-	we wtorek postaram się to bardziej uporządkować i rozbudować
+	<sub><mark>we wtorek postaram się to bardziej uporządkować i rozbudować</sub>
+</mark>
 	<br>
 	<a href="apollo.html">Home</a>
 	<br>
@@ -17,7 +18,6 @@
 	<br>
 	<img width="600" height="302" src="https://www.lpi.usra.edu/lunar/missions/apollo/apollo_11/images/apollo-11-main.jpg">
 	<hr style="color:#000000"><!-- chciałem zmienić kolor ale chyba się nie da, lub źle napisałem -->
-	<br>
 	<p><h3>Wszystkie misje Apollo z zamiarem lądowania na Księżycu</h3></p>
 	<table style="border:3px solid black; border collapse;">
 		<tr>
