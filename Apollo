@@ -3,10 +3,11 @@
 <head>
 	<meta charset="utf-8">
 	<title>Apollo</title>
-	<meta name "keywords" content="apollo, saturn, armstrong"/>
+	<meta name="keywords" content="apollo, saturn, armstrong"/>
+	<meta name="description" content="Załogowe loty Apollo które lądowały, lub miały lądować na Księżycu"
 </head>
-<body style="background-color:#DAA3A3;">
-	<sub><mark>we wtorek postaram się to bardziej uporządkować i rozbudować</sub>
+<body style="background: url(https://wallpapercave.com/wp/wp7472923.jpg)">
+	<sub><mark>mogą być błędy¯\_(ツ)_/¯</sub>
 </mark>
 	<br>
 	<a href="apollo.html">Home</a>
@@ -17,10 +18,10 @@
 	<br>
 	<a href="apollo.html">Contact</a>
 	<br>
-	<img width="600" height="302" src="https://www.lpi.usra.edu/lunar/missions/apollo/apollo_11/images/apollo-11-main.jpg">
-	<hr style="color:#000000"><!-- chciałem zmienić kolor ale chyba się nie da, lub źle napisałem -->
-	<p><h3>Wszystkie misje Apollo z zamiarem lądowania na Księżycu</h3></p>
-	<table style="border:3px solid black; border collapse;">
+	<img width="400" height="400" src="https://i.redd.it/8fgs49trdm761.jpg">
+	<hr color="#ff0000" size="6">
+	<p><h3 style="color: #ffffff">Wszystkie misje Apollo z zamiarem lądowania na Księżycu</h3></p>
+	<table style="border:3px solid white; border collapse;">
 		<tr>
 			<td style="border:3px solid black; padding: 5px;">Data startu</td>
 			<td style="border:3px solid black; padding: 5px;">Typ rakiety</td>
