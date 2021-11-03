@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<meta charset="utf-8">
+	<title>Apollo</title>
+	<meta name="keywords" content="apollo, saturn, armstrong"/>
+	<meta name="description" content="Załogowe loty Apollo które lądowały, lub miały lądować na Księżycu"/>
+	<style>
+	#container
+	{
+		width: 1920px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#header
+	{
+		background-color: black;
+		color: white;
+		text-align: center;
+		padding: 5px;
+	}
+	#nav
+	{
+		float: left;
+		background-color: lightgray;
+		width: 150px;
+		min-height:720px;
+	}
+	#content
+	{
+		float: left;
+		background-color: white;
+		width: 1610px;
+	}
+	#ad
+	{
+		float: left;
+		width: 150px;
+		background-color: lightgray;
+	}
+	#footer
+	{
+		padding: 7px;
+		clear: both;
+		background-color: black;
+		color: white;
+		text-align:center;
+	}
+	
+	
+	
+	
+	</style>
+</head>
+<body>
+<div id="container">
+	<div id="header">
+		<h1>Najlepsze loty</h1>
+	</div>
+	
+	<div id="nav">
+		Missions<br/>
+		Galleries<br/>
+		NASA TV<br/>
+		Follow NASA<br/>
+		Downloads<br/>
+		About<br/>
+		NASA Audiences<br/>
+	</div>
+	
+	<div id="content">
+	sdsds
+	</div>
+	
+	<div id="ad">
+		<img src="reklama.jpg" height="720" width="150"/>
+	</div>
+	
+	<div id="footer">
+		<h3 color="white">NASA - All rights reserved &copy <h3/>
+	</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
