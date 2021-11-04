@@ -9,9 +9,10 @@
 	<style>
 	#container
 	{
-		width: 1912px;
+		width: 1920px;
 		margin-left: auto;
 		margin-right: auto;
+		min-height:1080px;
 	}
 	#header
 	{
@@ -23,21 +24,26 @@
 	#nav
 	{
 		float: left;
-		background-color: lightgray;
 		width: 150px;
-		min-height:720px;
+		height:720px;
+		background-color: black;
+		background-size: 150px 720px;
+		color: #ffffff;
+		font-size:25px;
+		font-family: 
 	}
 	#content
 	{
 		float: left;
-		background-color: white;
-		width: 1610px;
+		background-color: blue;
+		width: 1620px;
+		height: 720px;
 	}
-	#ad
+	#side
 	{
 		float: left;
 		width: 150px;
-		background-color: lightgray;
+		height: 720px;
 	}
 	#footer
 	{
@@ -46,6 +52,21 @@
 		background-color: black;
 		color: white;
 		text-align:center;
+	}
+	.frame
+	{
+		background-color: gray;
+		height: 25px;
+		width: 180px;
+		float: left;
+		text-align: center;	
+	}
+	.box
+	{
+		background-color: #000000;
+		color: #ffffff;
+		height: 33px;
+		border: 1px solid white;
 	}
 	
 	
@@ -56,46 +77,84 @@
 <body>
 <div id="container">
 	<div id="header">
-		<h1>NASA</h1>
+		<img src="nasa.jpg">
 	</div>
 	
 	<div id="nav">
-		Missions<br/>
-		Galleries<br/>
-		NASA TV<br/>
-		Follow NASA<br/>
-		Downloads<br/>
-		About<br/>
-		NASA Audiences<br/>
+	<a href="index.html">
+		<div class="box">
+			Missions
+		</div>
+	</a>
+	<a href="index.html">
+		<div class="box">
+			Galleries
+		</div>
+	</a>
+	<a href="index.html">
+		<div class="box">
+			NASA TV
+		</div>
+	</a>
+	<a href="index.html">
+		<div class="box">
+			Follow NASA
+		</div>
+	</a>
+	<a href="index.html">
+		<div class="box">
+			Downloads
+		</div>
+	</a>
+	<a href="index.html">
+		<div class="box">
+			About
+		</div>
+	</a>
+	<a href="index.html">
+		<div class="box">
+			NASA audiences
+		</div>
+	</a>
 	</div>
 	
 	<div id="content">
-	sdsds
+		<div class="frame">
+			Humans in space
+		</div>
+		<div class="frame">
+			Moon to Mars
+		</div>
+		<div class="frame">
+			Earth
+		</div>
+		<div class="frame">
+			Space tech
+		</div>
+		<div class="frame">
+			Flight
+		</div>
+		<div class="frame">
+			Solar System and beyond
+		</div>
+		<div class="frame">
+			Stem Engagement
+		</div>
+		<div class="frame">
+			History
+		</div>
+		<div class="frame">
+			Benefits to You
+		</div>	
 	</div>
 	
-	<div id="ad">
-		<img src="reklama.jpg" height="720" width="150"/>
+	<div id="side">
+		<img src="milky.jpg" height="720" width="150"/>
 	</div>
 	
 	<div id="footer">
 		<h3 color="white">NASA - All rights reserved &copy <h3/>
 	</div>
-
-
-
-
-
-
-
-
-
 </div>
-
-
-
-
-
-
-
 </body>
 </html>
