@@ -8,8 +8,10 @@
 	<meta name="description" content="Lastest space images and more!"/>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="css/fontello.css">
 	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
 	<style>
+	
 	html, body
 	{
     max-width: 100%;
@@ -24,7 +26,7 @@
 	}
 	#header
 	{
-		background-color: red;
+		background-color: black;
 		color: white;
 		width: 1920px;
 		height: 54px;
@@ -39,15 +41,61 @@
 		left: 500px;
 		float: left;
 	}
-	.social
+	#facebook
 	{
 		width: 45px;
 		height: 54px;
-		background-color: green;
+		background-color: #4267B2;
+		float: left;
+		position: relative;
+		left: 1600px;
+		float: left;	
+	}
+	#facebook:hover
+	{
+		background-color: #3156a1;
+	}
+	#twitter
+	{
+		width: 45px;
+		height: 54px;
+		background-color: #1DA1F2;
 		float: left;
 		position: relative;
 		left: 1600px;
 		float: left;
+	}
+	#twitter:hover
+	{
+		background-color: #0c90e1;
+	}
+	#linkedin
+	{
+		width: 45px;
+		height: 54px;
+		background-color: #0e76a8;
+		float: left;
+		position: relative;
+		left: 1600px;
+		float: left;
+	}
+	#linkedin:hover
+	{
+		background-color: #0d6597;
+	}
+	#pinterest
+	{
+		width: 45px;
+		height: 54px;
+		background-color: #E60023;
+		float: left;
+		position: relative;
+		left: 1600px;
+		float: left;
+	}
+	#pinterest:hover
+	{
+		background-color: #d43d4a;
 	}
 	#nav 
 	{
@@ -159,17 +207,23 @@
 		text-align: center;
 		padding: 10px;
 	{
-
-
 	</style>
 </head>
 <body style="background-color: black">
 <div id="container">
 	<div id="header">	
-		<div class="social">a</div>
-		<div class="social">a</div>
-		<div class="social">a</div>
-		<div class="social">a</div><!-- nie wierzę że tyle męczyłem się z kilkoma linijkami, bo były w złej kolejności-->
+		<div id="facebook">
+			<i class="icon-facebook-1"></i>
+		</div>
+		<div id="twitter">
+			<i class="icon-twitter"></i>
+		</div>
+		<div id="linkedin">
+			<i class="icon-linkedin-1"></i>
+		</div>
+		<div id="pinterest">
+			<i class="icon-path"></i>
+		</div><!-- nie wierzę że tyle męczyłem się z kilkoma linijkami, bo były w złej kolejności-->
 		<div id="obraz"></div>
 	</div>
 	
