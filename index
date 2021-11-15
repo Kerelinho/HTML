@@ -24,26 +24,40 @@
 	}
 	#header
 	{
-		background-color: #000000;
+		background-color: red;
 		color: white;
-		text-align: center;
-		padding: 5px;
-		transition: transform 0.3s ease-in-out;
+		width: 1920px;
+		height: 54px;
+		float: left;
 	}
-	#header:hover
+	#obraz
 	{
-		transform: scale(0.9);	
+		height: 54px;
+		width: 569px;
+		background-image: url("nasa.jpg");
+		position: relative;
+		left: 500px;
+		float: left;
+	}
+	.social
+	{
+		width: 45px;
+		height: 54px;
+		background-color: green;
+		float: left;
+		position: relative;
+		left: 1600px;
+		float: left;
 	}
 	#nav 
 	{
 		float: left;
 		width: 150px;
-		height:720px;
+		height: 720px;
 		background-color: black;
 		background-size: 150px 720px;
 		color: #ffffff;
-		font-size:25px;
-		font-family:
+		font-size: 25px;
 	}
 	#content
 	{
@@ -151,8 +165,12 @@
 </head>
 <body style="background-color: black">
 <div id="container">
-	<div id="header">
-		<img src="nasa.jpg">
+	<div id="header">	
+		<div class="social">a</div>
+		<div class="social">a</div>
+		<div class="social">a</div>
+		<div class="social">a</div><!-- nie wierzę że tyle męczyłem się z kilkoma linijkami, bo były w złej kolejności-->
+		<div id="obraz"></div>
 	</div>
 	
 	<div id="nav">
@@ -255,8 +273,7 @@
 		</div>
 	</div>
 	<div id="footer">
-		<h3 color="white">NASA - All rights reserved &copy <h3/>
+		<h3 color="white">NASA - All rights reserved &copy </h3>
 	</div>
-</div>
 </body>
 </html>
