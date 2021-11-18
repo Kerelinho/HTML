@@ -16,20 +16,21 @@
 	{
     max-width: 100%;
     overflow-x: hidden;
+	background-color: black;
 	}
 	#container
 	{
 		width: 1920px;
 		margin-left: auto;
 		margin-right: auto;
-		background-color: #000000;
+		background-color: #black;
 	}
 	#header
 	{
 		background-color: black;
 		color: white;
 		width: 1920px;
-		height: 54px;
+		height: 69px;
 		float: left;
 	}
 	#obraz
@@ -49,7 +50,8 @@
 		float: left;
 		position: relative;
 		left: 1600px;
-		float: left;	
+		float: left;
+		margin: 5px;
 	}
 	#facebook:hover
 	{
@@ -64,6 +66,7 @@
 		position: relative;
 		left: 1600px;
 		float: left;
+		margin: 5px;
 	}
 	#twitter:hover
 	{
@@ -78,6 +81,7 @@
 		position: relative;
 		left: 1600px;
 		float: left;
+		margin: 5px;
 	}
 	#linkedin:hover
 	{
@@ -92,40 +96,90 @@
 		position: relative;
 		left: 1600px;
 		float: left;
+		margin: 5px;
 	}
 	#pinterest:hover
 	{
 		background-color: #d43d4a;
 	}
-	#nav 
-	{
-		float: left;
-		width: 150px;
-		height: 720px;
-		background-color: black;
-		background-size: 150px 720px;
-		color: #ffffff;
-		font-size: 25px;
-	}
 	#content
 	{
 		float: left;
-		background-color: white;
-		width: 1620px;
-	}
-	#footer
-	{
-		padding: 7px;
-		clear: both;
 		background-color: black;
-		color: white;
-		text-align:center;
+		margin-left: 100px;
+		margin-top: 50px;
 	}
 	#frameholder
 	{
 		background-color: black;
-		height: 25px;
+		height: 65px;	
 	}
+	#holderframe
+	{
+		background-color: black;
+		height: 70px;
+		margin-left: 600px;
+	}
+	ol
+	{
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+		font-size: 18px;
+		height: 35px;
+		line-height: 200%;
+		display: inline-block;
+	}
+
+	ol a
+	{
+		color: #ffffff;
+		text-decoration: none;
+		display: block;
+	}
+
+	ol > li
+	{
+		float: left;
+		width: 150px;
+		height: 40px;
+		border-left: 1px solid #666666;
+	}
+
+	ol > li:first-child
+	{
+		border-left: none;
+	}
+
+	ol > li:hover
+	{
+		background-color: #4250C4;
+	}
+	ol > li > ul
+	{
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		height: 40px;
+		display: none;
+	}
+
+	ol > li:hover > ul
+	{
+		display: block;
+	}
+
+	ol > li > ul > li
+	{
+		background-color: #4250C4;
+		position: relative;
+		z-index: 100;
+	}
+
+	ol > li > ul > li:hover
+	{
+		background-color: #35409D;
+	}	
 	.frame
 	{
 		background-color: #666666;
@@ -146,8 +200,11 @@
 		background-color: #000000;
 		color: #ffffff;
 		height: 33px;
-		transition: transform 0.2s ease-in-out;
 		text-decoration: none;
+		float: left;
+		width: 120px;
+		text-align: center;
+		font-size: 20px;
 	}
 	
 	.boxdecoration
@@ -166,17 +223,25 @@
 	.box:hover
 	{
 		background-color: #757575;
-		transform: scale(0.9);
 	}
 	#main
 	{
 		clear: both;
 		background-color: black;
-		
+	}
+	#footer
+	{
+		background-color: black;
+		color: white;
+		text-align: center;
+		font-family: 'Raleway', sans-serif;
+		margin-top: 100px;		
+		font-size: 20px;
+		height: 75px;
 	}
 	#square1
 	{
-		margin-left: 25px;
+		margin-left: 200px;
 		margin-top: 15px;
 		font-family: 'Raleway', sans-serif;
 		font-size: 27px;
@@ -198,7 +263,7 @@
 	}
 	.text
 	{
-		width: 784px;
+		width: 764px;
 		height: 36px;
 		background-color: #688CCA;
 		text-align: center;
@@ -207,6 +272,15 @@
 		text-align: center;
 		padding: 10px;
 	{
+	#image
+	{
+		margin-left: 0;
+	}
+	no
+	{
+		margin: 0;
+	{
+
 	</style>
 </head>
 <body style="background-color: black">
@@ -226,43 +300,63 @@
 		</div><!-- nie wierzę że tyle męczyłem się z kilkoma linijkami, bo były w złej kolejności-->
 		<div id="obraz"></div>
 	</div>
+		
+	<div id="holderframe">
+	<ol>
+				<li><a href="#">Missions</a>
+					<ul>
+						<li><a href="#">Artemis program</a></li>
+						<li><a href="#">Commercial crew</a></li>
+						<li><a href="#">DART</a></li>
+						<li><a href="#">Hubble Space Telescope</a></li>
+					</ul>	
+				</li>
+				<li><a href="#">Galleries</a>
+					<ul>
+						<li><a href="#">Image of the day</a></li>
+						<li><a href="#">Image galleries</a></li>
+						<li><a href="#">Ultra-High-def-videos</a></li>
+						<li><a href="#">Videos</a></li>
+					</ul>
+				</li>
+				<li><a href="#">NASA TV</a></li>
+				<li><a href="#">Follow NASA</a>
+					<ul>
+						<li><a href="#">Get involved</a></li>
+						<li><a href="#">NASA blogs</a></li>
+						<li><a href="#">NASA live</a></li>
+						<li><a href="#">NASA newsletters</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Downloads</a>
+					<ul>
+						<li><a href="#">Apps</a></li>
+						<li><a href="#">Audio & ringtones</a></li>
+						<li><a href="#">E-books</a></li>
+						<li><a href="#">Podcasts</a></li>
+					</ul>
+				</li>
 	
-	<div id="nav">
-	<a href="index.html" class="boxdecoration">
-		<div class="box">
-			Missions
+				<li><a href="#">About</a>
+					<ul>
+						<li><a href="#">About NASA</a></li>
+						<li><a href="#">Astronauts</a></li>
+						<li><a href="#">Careers@nasa</a></li>
+						<li><a href="#">Exhibits and speakers</a></li>
+					</ul>
+				</li>
+				<li><a href="#">NASA Audiences</a>
+					<ul>
+						<li><a href="#">For media</a></li>
+						<li><a href="#">For educators</a></li>
+						<li><a href="#">For students</a></li>
+					</ul>
+				</li>
+			</ol>
+		
 		</div>
-	</a>
-	<a href="index.html" class="boxdecoration">
-		<div class="box">
-			Galleries
-		</div>
-	</a>
-	<a href="index.html" class="boxdecoration">
-		<div class="box">
-			NASA TV
-		</div>
-	</a>
-	<a href="index.html" class="boxdecoration">
-		<div class="box">
-			Follow NASA
-		</div>
-	</a>
-	<a href="index.html" class="boxdecoration">
-		<div class="box">
-			Downloads
-		</div>
-	</a>
-	<a href="index.html" class="boxdecoration">
-		<div class="box">
-			About
-		</div>
-	</a>
-	
-	</div>
-	
+	</div>	
 	<div id="content">
-	<div id="frameholder">
 		<div class="frame">
 			Humans in space
 		</div>
@@ -311,23 +405,11 @@
 					</div>
 				</div>
 			<div style="clear: both;"></div>
-			
-			
-			
-			
-			
-			
-			
-		
-		</div>
-		
-		
-		
-	
-		</div>
-	</div>
-	<div id="footer">
-		<h3 color="white">NASA - All rights reserved &copy </h3>
+				<div id="footer">
+					<img src="no.png">
+					NASA - All rights reserved &copy
+				</div>		
+		</div>		
 	</div>
 </body>
 </html>
